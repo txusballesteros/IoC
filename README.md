@@ -3,7 +3,9 @@ From Old-School to IoC
 
 This repository exposes the source code used to demonstrate the different steps to transform a old school architecture to an IoC architecture.
 
-This repository was used as learning material on DevFest Barcelona 2015, and it's only to learning purposes.
+This repository was used as learning material on [DevFest Barcelona 2015](http://devfest.gdgbarcelona.com), and it's only to learning purposes.
+
+![](https://img.shields.io/badge/purpose-learning-green.svg) ![](https://img.shields.io/badge/pattern-IoC-green.svg) ![](https://img.shields.io/badge/language-java-green.svg) ![](https://img.shields.io/badge/platform-android-green.svg)
 
 ## License
 
