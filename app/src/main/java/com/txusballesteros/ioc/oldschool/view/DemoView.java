@@ -28,12 +28,15 @@ import java.util.List;
 import com.txusballesteros.ioc.oldschool.domain.Employee;
 import com.txusballesteros.ioc.oldschool.presenter.DemoPresenter;
 
+@SuppressWarnings("unused")
 public class DemoView {
-
-    public void renderEmployees() {
+    public void loadEmployees() {
         DemoPresenter presenter = new DemoPresenter();
         List<Employee> employees = presenter.getEmployees();
-        //....
+        renderEmployees(employees);
     }
 
+    public void renderEmployees(List<Employee> employees) {
+        //....
+    }
 }

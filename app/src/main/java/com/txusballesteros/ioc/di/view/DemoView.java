@@ -34,10 +34,6 @@ import java.util.List;
 public class DemoView {
     private DemoPresenter presenter;
 
-    public DemoPresenter getPresenter() {
-        return presenter;
-    }
-
     public DemoView() {
         final DemoRepository repository = new DemoRepository();
         final DemoInteractor interactor = new DemoInteractor(repository);
@@ -45,7 +41,7 @@ public class DemoView {
     }
 
     public void loadEmployees() {
-        getPresenter().getEmployees();
+        presenter.getEmployees();
     }
 
     public void renderEmployees(List<Employee> employees) {
