@@ -33,7 +33,7 @@ public class RepositoryFactory {
         return LazyHolder.INSTANCE;
     }
 
-    public DemoRepositoryImpl getDemoRepository() {
+    public DemoRepository getDemoRepository() {
         return new DemoRepositoryImpl();
     }
 }
