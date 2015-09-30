@@ -34,6 +34,7 @@ import com.txusballesteros.ioc.di_dip.presenter.PresenterFactory;
 
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class DemoView implements DemoPresenter.View {
     private DemoPresenter presenter;
 
@@ -43,7 +44,7 @@ public class DemoView implements DemoPresenter.View {
         presenter = PresenterFactory.getInstance().getDemoPresenter(this, interactor);
     }
 
-    public void loadEmployees() {
+    public void onShowList() {
         presenter.onShowList();
     }
 

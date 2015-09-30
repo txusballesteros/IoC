@@ -30,7 +30,7 @@ import com.txusballesteros.ioc.oldschool.presenter.DemoPresenter;
 
 @SuppressWarnings("unused")
 public class DemoView {
-    public void loadEmployees() {
+    public void onShowList() {
         DemoPresenter presenter = new DemoPresenter();
         List<Employee> employees = presenter.getEmployees();
         renderEmployees(employees);

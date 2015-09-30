@@ -31,6 +31,7 @@ import com.txusballesteros.ioc.ioc.domain.DemoInteractor;
 
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class DemoView {
     private DemoPresenter presenter;
 
@@ -40,7 +41,7 @@ public class DemoView {
         presenter = new DemoPresenter(this, interactor);
     }
 
-    public void loadEmployees() {
+    public void onShowList() {
         presenter.onShowList();
     }
 

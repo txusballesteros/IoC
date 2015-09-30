@@ -45,7 +45,7 @@ public class DemoView implements DemoPresenter.View {
                 .inject(this);
     }
 
-    public void loadEmployees() {
+    public void onShowList() {
         presenter.onShowList();
     }
 
